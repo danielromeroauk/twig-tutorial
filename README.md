@@ -4,6 +4,8 @@ Videotutoriales sobre Twig para el [Canal de YouTube de Daniel Romero](https://w
 ## Lista de videos
 - [Twig: Motor de plantillas para PHP. Instalación y primeros pasos](https://www.youtube.com/watch?v=op0CkC486IQ) - 9:11
 
+- [Twig: Motor de plantillas para PHP. Usar vistas en archivos separados](https://www.youtube.com/watch?v=oLO9svaenq8) - 10:16
+
 ## Requisitos del sistema
 - PHP >= 5.2.7
 - Composer
