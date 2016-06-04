@@ -2,21 +2,11 @@
 
 require_once './vendor/autoload.php';
 
-$loader = new Twig_Loader_Array(array(
-    'index' => 'Hola {{ who }}, {{ hello }}.',
-));
-$twig = new Twig_Environment($loader);
+$loader = new Twig_Loader_Filesystem('./views');
 
-/*
-$params = [
-    'who' => 'gente del futuro',
-    'hello' => 'bienvenidos al primer tutorial de Twig'
-];
-
-echo $twig->render('index', $params);
-*/
+$twig = new Twig_Environment($loader, []);
 
 $who = 'gente del futuro';
-$hello = 'sean todos bienvenidos al primer tutorial';
+$hello = 'sean todos bienvenidos';
 
-echo $twig->render('index', compact('who', 'hello'));
+echo $twig->render('index.twig', compact('who', 'hello'));
