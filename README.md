@@ -6,7 +6,11 @@ Videotutoriales sobre Twig para el [Canal de YouTube de Daniel Romero](https://w
 
 - [Twig: Motor de plantillas para PHP. Usar vistas en archivos separados](https://www.youtube.com/watch?v=oLO9svaenq8) - 10:17
 
-- [Twig: Motor de plantillas para PHP. Variables y comentarios](https://youtu.be/N1Dhyr6_ybE) - 12:16
+- [Twig: Motor de plantillas para PHP. Variables y comentarios](https://youtu.be/N1Dhyr6_ybE) - 12:15
+
+- [Twig: Motor de plantillas para PHP. Trabajando con Arrays](https://youtu.be/z4sIxSgS0Ic) - 9:17
+
+
 
 ## Requisitos del sistema
 - PHP >= 5.2.7
