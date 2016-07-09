@@ -11,4 +11,7 @@ $user = [
     'email' => 'daniel@ejemplo.com'
 ];
 
-echo $twig->render('index.twig', compact('user'));
+// Determina si el sitio está online o en mantenimiento.
+$online = true;
+
+echo $twig->render('view2.twig', compact('user', 'online'));

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Condicionales Twig</title>
+</head>
+<body>
+  <h1>Condicionales</h1>
+  {# Verifica si un array no está vacío #}
+  {% if user %}
+    Hola, {{ user.name|title }}.
+  {% endif %}
+
+  {% if online %}
+    <p>El sitio está online.</p>
+  {% else %}
+    <p>Nuestro sitio está en mantenimiento, regresa más tarde.</p>
+  {% endif %}
+
+  {% if user.email is defined %}
+    <p>Email: {{ user.email }}</p>
+  {% else %}
+    <p>La variable no está definida.</p>
+  {% endif %}
+</body>
+</html>

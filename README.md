@@ -12,6 +12,8 @@ Videotutoriales sobre Twig para el [Canal de YouTube de Daniel Romero](https://w
 
 - [Twig: Motor de plantillas para PHP. Aplicando filtros](https://youtu.be/-1DEMI3dz1g) - 9:19
 
+- [Twig: Motor de plantillas para PHP. Condicionales](https://youtu.be/32Sr2Z7ChFs) - 11:02
+
 ## Requisitos del sistema
 - PHP >= 5.2.7
 - Composer
