@@ -1,9 +1,6 @@
 <?php
 
-require_once './vendor/autoload.php';
-
-$loader = new Twig_Loader_Filesystem('./views');
-$twig = new Twig_Environment($loader);
+require_once __DIR__ . '/../config.php';
 
 $user = [
     'name' => 'daniel guillermo',
