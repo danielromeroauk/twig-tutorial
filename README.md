@@ -16,6 +16,8 @@ Videotutoriales sobre Twig para el [Canal de YouTube de Daniel Romero](https://w
 
 - [Twig: Motor de plantillas para PHP. Ciclo For](https://youtu.be/3k6iPY0BpY0) - 3:33
 
+- [Twig: Motor de plantillas para PHP. Operador punto punto](https://youtu.be/RciXpqRMMB8) - 1:54
+
 ## Requisitos del sistema
 - PHP >= 5.2.7
 - Composer
